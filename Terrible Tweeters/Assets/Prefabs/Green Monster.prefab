@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5903521653009703078}
   - component: {fileID: 6873703676756686869}
   m_Layer: 0
-  m_Name: Purple Monster
+  m_Name: Green Monster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6376e65d5cd1502458f627e6f98265e4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cf34eb2716f7c0b47a62f3b4cf459168, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -191,7 +191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a4b485d8173f1d4e80b8d45ae14a4b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _deadSprite: {fileID: 21300000, guid: 70a60dad9c6f2aa42941b53edf1428e9, type: 3}
+  _deadSprite: {fileID: 21300000, guid: b980d00d1beb91941b8a42062396827a, type: 3}
   _particleSystem: {fileID: 7994687360966487962}
 --- !u!82 &5903521653009703078
 AudioSource:
@@ -298,8 +298,8 @@ AudioSource:
   m_GameObject: {fileID: 8190147973045476598}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4fe8035455451614590dfb9e5bd208aa, type: 3}
+  OutputAudioMixerGroup: {fileID: 6267485253746954784, guid: 48fb6227124e35e4484392dffebbfa3e, type: 2}
+  m_audioClip: {fileID: 8300000, guid: a56dc88bff188e44885c04fda2104bd7, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

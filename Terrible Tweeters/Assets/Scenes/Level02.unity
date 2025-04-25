@@ -712,7 +712,7 @@ SpriteRenderer:
   m_SortingLayerID: 1975665483
   m_SortingLayer: -1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0b8bbf5199d0038458f583e0aa7b88f5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4c9c6cd5a5f30c24a929370f717d1a3e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -848,7 +848,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8190147973045476598, guid: 5c81acc40ea2fd64abe43174f6169ede, type: 3}
       propertyPath: m_Name
-      value: Purple Monster (1)
+      value: Green Monster (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1089,7 +1089,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8190147973045476598, guid: 5c81acc40ea2fd64abe43174f6169ede, type: 3}
       propertyPath: m_Name
-      value: Purple Monster
+      value: Green Monster
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1104,14 +1104,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6873703676756686869, guid: 5c81acc40ea2fd64abe43174f6169ede, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: a56dc88bff188e44885c04fda2104bd7, type: 3}
-    - target: {fileID: 6873703676756686869, guid: 5c81acc40ea2fd64abe43174f6169ede, type: 3}
-      propertyPath: OutputAudioMixerGroup
-      value: 
-      objectReference: {fileID: 6267485253746954784, guid: 48fb6227124e35e4484392dffebbfa3e, type: 2}
     - target: {fileID: 6936046677646160783, guid: 5c81acc40ea2fd64abe43174f6169ede, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8
@@ -1154,7 +1146,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8190147973045476598, guid: 5c81acc40ea2fd64abe43174f6169ede, type: 3}
       propertyPath: m_Name
-      value: Purple Monster (2)
+      value: Green Monster (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1516,7 +1508,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ff1562ecb64bba045ba4a05c088e28ce, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dca8db442bcf424479812b708decf9aa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
