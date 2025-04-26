@@ -11,7 +11,9 @@ public class Bird : MonoBehaviour
     Vector2 _startPosition;
     Rigidbody2D _rigidbody2D;
     SpriteRenderer _spriteRenderer;
-    
+
+    public bool IsDragging { get; private set; }
+
     void Awake()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
@@ -28,6 +30,7 @@ public class Bird : MonoBehaviour
     void OnMouseDown()
     {
         _spriteRenderer.color = Color.red;
+        IsDragging = true;
     }
 
     void OnMouseUp()
@@ -43,6 +46,7 @@ public class Bird : MonoBehaviour
         AudioSource.Play();
 
         _spriteRenderer.color = Color.white;
+        IsDragging = false;
     }
 
     void OnMouseDrag()
